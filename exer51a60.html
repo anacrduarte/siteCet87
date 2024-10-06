@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="discription" content="Site Cet 87">
+    <meta name="keyword" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Ana">
+    <meta name="generator" content="Visual Studio Code">
+    <meta name="robots" content="noidex">
+    <title>CET 87</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo:ital,wght@0,100..900;1,100..900&family=Play:wght@400;700&display=swap" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <link rel="stylesheet" type= "text/css" href="fontawesome/fontawesome-free-6.5.2-web/css/all.min.css" />
+
+    <link rel="stylesheet" href="estilos.css">
+    <script src="javascript.js"></script>
+</head>
+<body>
+    <header class="barranevegacao">
+        
+             <div class="cabecalhoSite">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="imagens/2325.png" alt="Logo CET 87" ></a>
+                </div>
+                <div class="slogan">
+                    <p > JAVASCRIPT</p>
+                
+                 </div>
+             </div>
+        
+    <nav>
+        <ul>
+            <li > <a href="index.html" >Home</a></li>
+            <li class="dropdown"><a class="dropbtn">Exercícios</a>
+                <div class="dropdown-content">
+                  <a href="exer1a10.html">1..10</a>
+                  <a href="exer11a20.html">11..20</a>
+                  <a href="exer21a30.html">21..30</a>
+                  <a href="exer31a40.html">31..40</a>
+                  <a href="exer41a50.html">41..50</a>
+                  <a href="exer51a60.html">51..60</a>
+                </div></li>
+            <li class="dropdown"><a class="dropbtn">Jogos</a>
+                    <div class="dropdown-content">
+                      <a href="aposta.html">Corrida</a>
+                      <a href="spaceInvaders.html">Space Invaders</a>
+                      <a href="PPT.html">Pedra, Papel, Tesoura</a>
+                    </div>
+            </li>     
+        </ul>
+    </nav> 
+</header>
+
+<section class="exer51a60">
+    
+    <article class="exercicio51a60">
+            <header>
+                <h2 class="titulonoticia">Exercício 51</h2>
+            </header>
+            <p>51.	Crie um programa que leia do utilizador uma palavra/frase e remova todos os caracteres especiais.</p>
+            <hr>
+
+        <div class="row g-3 align-items-center">
+              <div class="col-auto">
+                <label for="frase52" class="col-form-label">Insira uma frase </label>
+              </div>
+              <div class="col-auto">
+                <input type="text" id="frase52" class="form-control" aria-describedby="numero">
+              </div>
+              <div class="col-auto">
+                <span id="resultadofrase52" class="form-text"></span>
+              </div>
+              <div>
+                <button type="button" class="btn btn-outline-dark" onclick="exercicio51()">Exercicio 51</button>
+              </div>
+              <div id="resultadoexer51"></div>
+          </div>
+      </article>
+
+
+      <article class="exercicio51a60">
+            <header>
+                <h2 class="titulonoticia">Exercício 52</h2>
+            </header>
+            <p>52.	Crie um programa que converta um número decimal em binário. </p>
+            <hr>
+
+          <div class="row g-3 align-items-center">
+              <div class="col-auto">
+                <label for="numero52" class="col-form-label">Insira um número </label>
+              </div>
+              <div class="col-auto">
+                <input type="text" id="numero52" class="form-control" aria-describedby="numero">
+              </div>
+              <div class="col-auto">
+                <span id="resultadonumero52" class="form-text"></span>
+              </div>
+              <div>
+                <button type="button" class="btn btn-outline-dark" onclick="exercicio52()">Exercicio 52</button>
+              </div>
+              <div id="resultadoexer52"></div>
+            </div>
+      </article>
+
+      <article class="exercicio51a60">
+            <header>
+                <h2 class="titulonoticia">Exercício 53</h2>
+            </header>
+            <p>53.	Crie um programa que coloca uma cor aleatória no fundo da página
+                (dica: document.body.style.background )</p>
+            <hr>
+        
+          <div class="row g-3 align-items-center">
+              <div class="col-auto">
+                <label for="num53" class="col-form-label">Para mudar o fundo da página carrega no botão </label>
+              </div>
+           
+              <div>
+                    <button type="button" class="btn btn-outline-dark" onclick="exercicio53()">Exercicio 53</button>
+              </div>
+              <div id="resultadoexer53"></div>
+            </div>
+      </article>
+
+      <article class="exercicio51a60">
+            <header>
+                <h2 class="titulonoticia">Exercício 54</h2>
+            </header>
+            <p>54.	Crie um programa que leia uma cor e coloca-a no fundo de um parágrafo </p>
+            <hr>
+
+          <div class="row g-3 align-items-center">
+              <div class="col-auto">
+                <label for="cor54" class="col-form-label">Escolha a cor: </label>
+              </div>
+              <div class="col-auto">
+                <input type="color" id="cor54" class="text" aria-describedby="cor">
+              </div>
+              <div class="col-auto">
+                <span id="resultadocor54" class="form-text"></span>
+              </div>
+              <div>
+                <button type="button" class="btn btn-outline-dark" onclick="exercicio54()">Exercicio 54</button>
+              </div>
+              <div><p id="resultadoexer54" > Parágrafo </p></div>
+           </div>
+      </article>
+
+
+      <article class="exercicio51a60">
+            <header>
+                <h2 class="titulonoticia">Exercício 55</h2>
+            </header>
+            <p>55.	Crie um programa que leia o número de linhas e colunas e mostre uma tabela com o respetivo número de linhas e colunas</p>
+            <hr>
+        
+          <div class="row g-3 align-items-center">
+                <div class="col-auto">
+                  <label for="numero55a" class="col-form-label">Insira o nº de linhas</label>
+                </div>
+                <div class="col-auto">
+                  <input type="number" id="numero55a" class="form-control" aria-describedby="numero">
+                </div>
+                <div class="col-auto">
+                  <span id="resultadonumero55a" class="form-text"></span>
+                </div>
+            </div>
+            <br>
+              <div class="row g-3 align-items-center">     
+                <div class="col-auto">
+                  <label for="numero55b" class="col-form-label">Insira o nº de colunas</label>
+                </div>
+                <div class="col-auto">
+                  <input type="number" id="numero55b" class="form-control" aria-describedby="numero">
+                </div>
+                <div class="col-auto">
+                  <span id="resultadonumero55b" class="form-text"></span>
+                </div>
+                <div>
+                    <button type="button" class="btn btn-outline-dark" onclick="exercicio55()">Exercicio 55</button>
+                </div>
+                <div class="array51a60"  id="resultadoexer55"></div>
+              </div>
+      </article>
+
+      <article class="exercicio51a60">
+            <header>
+                <h2 class="titulonoticia">Exercício 56</h2>
+            </header>
+            <p>56.	Crie um programa que mostre uma tabela de 3x3. O programa deve de ler o número da linha, coluna e texto e mostre o texto na respetiva linha e coluna da tabela.</p>
+            <hr>
+         <table id="tabelaExercicio56"></table>
+          <div class="row g-3 align-items-center">
+                <div class="col-auto">
+                  <label for="numero56a" class="col-form-label">Insira o nº da linha</label>
+                  <input type="number" id="numero56a" class="form-control" aria-describedby="numero">
+                  <span id="resultadonumero56a" class="form-text"></span>
+                </div>
+          </div>
+            <br>
+          <div class="row g-3 align-items-center"> 
+              <div class="col-auto">
+                <label for="numero56b" class="col-form-label">Insira o nº da coluna</label>
+                <input type="number" id="numero56b" class="form-control" aria-describedby="numero">
+                <span id="resultadonumero56b" class="form-text"></span>
+              </div>
+          </div>
+          <br>
+          <div class="row g-3 align-items-center"> 
+              <div class="col-auto">
+                <label for="texto56" class="col-form-label">Insira o texto</label>
+                <input type="text" id="texto56" class="form-control" aria-describedby="numero">
+                <span id="resultadotexto56" class="form-text"></span>
+              </div>
+              <div>  
+                <button type="button" class="btn btn-outline-dark" onclick=" Exercicio56()">Exercicio 56</button>
+              </div>    
+            </div>
+          
+      </article>
+
+      
+      <article class="exercicio51a60">
+            <header>
+                <h2 class="titulonoticia">Exercício 57</h2>
+            </header>
+            <p>57.	Crie um programa que mostre a altura e largura de uma janela sempre que esta for alterada</p>
+            <hr>
+            
+          <div class="row g-3 align-items-center">
+              <div class="col-auto">
+                <label for="num57" class="col-form-label">Tamanho da janela </label>
+              </div>
+              <div id="resultadoexer57"></div>
+              <div>  
+                <button type="button" class="btn btn-outline-dark" onclick=" Exercicio57()">Exercicio 57</button>
+              </div> 
+            </div>  
+      </article>
+ 
+      <article class="exercicio51a60">
+            <header>
+                <h2 class="titulonoticia">Exercício 58</h2>
+            </header>
+            <p>58.	Crie um programa que ordene um array de 100 números aleatórios através do algoritmo Bubble Sort.</p>
+            <hr>
+        
+          <div class="row g-3 align-items-center">
+              <div class="col-auto">
+                <label for="num58" class="col-form-label">Para saber os valor clique no botão </label>
+              </div>
+              <div>
+                  <button type="button" class="btn btn-outline-dark" onclick="exercicio58()">Exercicio 58</button>
+                </div>
+              <div class="array51a60"  id="resultadoexer58"></div>
+            </div>
+      </article>
+
+
+      <article class="exercicio51a60">
+            <header>
+                <h2 class="titulonoticia">Exercício 59</h2>
+            </header>
+            <p>59.	Crie um programa que ordene um array de 100 números aleatórios através do algoritmo “Insertion Sort”.</p>
+            <hr>
+         
+          <div class="row g-3 align-items-center">
+            <div class="col-auto">
+              <label for="num58" class="col-form-label">Para saber os valor clique no botão </label>
+            </div>
+            <div>
+                  <button type="button" class="btn btn-outline-dark" onclick="exercicio59()">Exercicio 59</button>
+            </div>
+            <div class="array51a60" id="resultadoexer59"></div>
+          </div>
+      </article>
+
+
+      <article class="exercicio51a60 ">
+            <header>
+                <h2 class="titulonoticia">Exercício 60</h2>
+            </header>
+            <p>60.	Crie uma função que ordene um array de 100 números aleatórios através do algoritmo “Selection Sort”.</p>
+            <hr>
+        
+          <div class="row g-3 align-items-center">
+            <div class="col-auto">
+              <label for="num60" class="col-form-label">Para saber os valor clique no botão </label>
+            </div>
+            <div>
+              <button type="button" class="btn btn-outline-dark" onclick="exercicio60()">Exercicio 60</button>
+            </div>
+            <div class="array51a60" id="resultadoexer60"></div>
+          </div>
+      </article>
+    
+</section>
+
+
+
+<footer>
+  <p>&copy; Ana Duarte 
+      <a href="https://www.linkedin.com" target="_blank"><i class="fa-brands fa-linkedin fa-2xl"></i></a>
+      <a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-square-facebook fa-2xl"></i></a>
+      <a href="https://www.pinterest.pt/" target="_blank"><i class="fa-brands fa-square-pinterest fa-2xl"></i></a>
+      <a href="https://www.youtube.com" target="_blank"><i class="fa-brands fa-youtube fa-2xl"></i></a> 
+  
+  
+  </p>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,606 @@
+
+
+.cabecalhoSite{
+  
+    display: flex;
+    align-items: center;
+}
+body{
+   
+    width: 82%;
+    margin: 0 auto;
+    font-size: 14px;
+    font-family: "Play", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-image: url(imagens/vecteezy_abstract-boxes-background-modern-technology-with-square_8171873.jpg);
+}
+.logo{
+    
+    width: 26%;
+}
+
+.logo img{
+    width:100%;     
+}
+.slogan{
+    width: 80%;
+    font-family: "Archivo Black", sans-serif;
+    font-size: 50px;
+    margin: 15px 20px 3px 30px;
+    text-align: center;
+   
+}
+
+
+nav{
+    height: 60px;
+    line-height: 60px;
+    border: 2px solid;
+    /*background-color: #155ce0;*/
+    clear: both;
+   border-radius: 7px;
+    padding-top: 0%;
+    font-size: 16px;
+    font-family: "Play", sans-serif;
+     font-weight: 700;
+     font-style: normal;
+     box-shadow: 5px 5px rgb(138, 145, 138);
+}
+
+nav ul{
+    list-style: none;
+    
+}
+
+nav ul li{
+    display: inline-block;
+   
+}
+
+
+nav a:link, a:visited{
+   
+    color:black;
+    padding: 0px 25px;
+    text-decoration: none;
+    /*box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);*/
+}
+
+nav li:hover{
+   background-color: #AFC2D0;
+   border-radius: 6px;
+}
+
+
+
+.dropbtn 
+{
+    color: black;
+    padding: 0px 25px;
+    text-decoration: none;
+   
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    color: black;
+     height: 40px;
+    line-height: 40px;
+}
+  
+.dropdown-content {
+    background-color: #6167e2;
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 5px;
+}
+  
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    border-radius: 5px;
+  
+}
+  
+.dropdown-content a:hover {background-color: #AFC2D0;}
+  
+.dropdown:hover .dropdown-content {display: block;}
+  
+.dropdown:hover .dropbtn {background-color: #AFC2D0;}
+
+.linkativo{
+   
+    border-radius: 5px;
+    text-decoration-line: underline;
+   text-decoration: none;
+   
+}
+
+section{
+   width: 69%;
+   border: 5px;
+   float: left; 
+   font-size: medium;
+}
+
+article{
+    border: 2px solid;
+    margin: 10px 0px;
+    padding: 4% 5%;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 5px 5px rgb(138, 145, 138);
+   
+}
+.exercicios1-10, .exer51a60{
+    width: 98%;
+  }
+
+  .imgerro{
+    width: 30px;
+  }
+.primeiros10{
+    padding: 4% 4%;
+    background-color: white;
+    box-shadow: 5px 5px rgb(138, 145, 138);
+}
+.paginaex11a20, .paginaexer41a50{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: center;   
+}
+
+ .segundos10, .exercicio41a50{
+    width: 45%;
+    margin: 10px;   
+}
+
+.btn11a20, .btn41a50{
+    width: 100%;
+    margin: 20px 0px 2px 0px;
+    display: flex;
+    justify-content: end;
+}
+.btn11a20 button{
+   width: 50%;
+}
+
+.paginaex21a30{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;      
+}
+
+.exercicio21a30{
+    width: 80%;
+    border-radius: 70px 0px 0px 70px;
+    border: 6px solid #707298;
+    
+}
+.exr21e30{
+    border-radius: 0px 70px 70px 0px;
+}
+.exr21e30direita{
+    margin-left: auto;
+}
+.btn21a30{
+    display: flex;
+    justify-content: end;
+
+}
+.exercicio31a40{
+    width: 100%;
+    
+}
+
+.array51a60{
+   text-align: center;
+}
+.tabela56div{
+    width: 50%;
+
+}
+
+.imagensJogos img{
+    width:70px;
+    height:70px;
+    float:inline-start;
+}
+
+.titulonoticia{
+    font-family: "Play", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    font-style: normal;
+    
+}
+
+.info{
+    font-size: 12px;
+    color: gray;
+    font-style: italic;
+}
+
+aside{
+    width: 29%;
+    float: left;
+    margin: 15px 0px 20px 10px;
+    padding: 2% 3%;
+    border-radius: 5px;
+    border: 2px solid;
+    background-color: rgba(112, 114, 152, 0.6);
+    box-shadow: 5px 5px rgb(138, 145, 138);
+
+}
+footer{
+   
+    width: 100%;
+    float: left;
+    /*background-color: #707298;*/
+    border-radius: 5px;
+    margin-bottom: 10px;
+    box-shadow: 5px 5px rgb(138, 145, 138);
+}
+
+footer a{
+   float: inline-end;
+   margin-left: 20px;
+}
+footer a:hover{
+    color: red;
+}
+
+
+
+footer p{
+    color: black;
+    font-size: 16px;
+    padding: 0px 25px;
+    margin-top: 20px;
+}
+
+
+
+.exer32{
+    text-align: center;
+    
+}
+
+td {
+    
+    border: 1px solid black; /* Define a borda com 1 pixel de largura e cor preta */
+    padding: 20px; /* Adiciona um espaçamento interno de 5 pixels */
+}
+.exrcicio14style{
+    border-radius: 5px;
+    border: slateblue solid 2px;
+    margin-bottom: 3px;
+}
+.aposta-tabuleiro{
+    width: 100%;
+    border: 2px solid;
+    margin-top: 10px;
+    border-radius: 5px;
+    height: 350px;
+    background-color: white;    
+    padding: 10px 5px;
+    box-shadow: 5px 5px rgb(138, 145, 138);
+}
+
+.tituloap1{
+    
+    width: 70%;
+    float: left;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+   /*margin-bottom: 20px;*/
+}
+
+.tituloap2, .tituloap3, .tituloap4 {
+    width: 10%;
+    float: left;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+   
+}
+.pista{
+    width: 70%;
+    float: left;
+    height: 50px;
+    line-height: 50px ; 
+    border-top: 1px solid;   
+    
+}
+
+.imgjogador1, .imgjogador2, .imgjogador3, .imgjogador4, .imgjogador5 {
+   
+    height: 50px;
+    line-height: 50px;
+    position: absolute;
+
+}
+.box{
+    width: 10%;
+    float: left;
+    text-align: center;
+    margin: 0;
+    height: 50px;
+    line-height: 50px;
+    border-top: 1px solid;
+}
+.dinheiro{
+    width: 12%;
+    float: right;
+    height: 50px;
+    line-height: 50px;
+}
+.apostacx{
+    height: 30px;
+    line-height: 30px;
+    border: 3px solid;
+    border-radius: 4px;
+    text-align: end;
+    
+}
+.apostacx:focus{
+    background-color: rgb(161, 206, 221);
+}
+.resultadoapostas{
+    width: 100%;
+    border: 2px solid;
+    margin-top: 10px;
+    border-radius: 5px;
+    height: 80px;
+    line-height: 80px ;
+    background-color: white;    
+    padding: 10px 5px;
+    margin-bottom: 20px;
+    box-shadow: 5px 5px rgb(138, 145, 138);
+    
+}
+.resultadoapostas .box{
+    border-top: 0;
+}
+.startbtn{
+    width: 70%;
+    float: left;
+    height: 30px;
+    line-height: 30px ;
+    text-align: center;
+    padding: 5px;
+    
+}
+#button1 {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: red;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #757474;
+  }
+  
+  #button1:hover {background-color: #3e8e41}
+
+ 
+
+.sectionSpace{
+    width: 100%;
+    height: 100%;
+  }
+  .sectionSpace h1{
+    padding: 10px 0px 0px 10px;
+    text-align: center;
+  }
+
+  .aliensBody{
+     display: flex;
+     justify-content: center;
+   
+  }
+
+  
+
+  .resultadosSpace{
+    padding: 2% 3%;
+    text-align: center;
+    border-radius: 5px;
+   
+    box-shadow: 5px 5px rgb(138, 145, 138);
+  }
+
+  .divbtnSpace{ 
+    padding-top: 20px;
+    padding: 20px 20px 20px 0px;
+    text-align:right;
+    
+  }
+
+  .btnSpace{
+    width: 30%;
+  }
+ 
+
+.grid{
+   
+    width: 606px;
+    height: 606px;
+    border: solid 1px black;
+    padding: 0%;
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url(imagens/fundoguerra.jpg);
+    box-shadow: 5px 5px rgb(138, 145, 138);   
+    
+}
+.grid div{
+    width: 40px;
+    height: 40px;
+    
+    
+}
+.invader{
+    background-image: url(imagens/alieng.png);
+}
+
+.shooter{
+    background-image: url(imagens/naveg.png);
+    
+}
+
+.laser{
+    background-image: url(imagens/disparog.png);
+
+}
+.boom{
+    background-image: url(imagens/boomg.png);
+
+}
+
+/*PEDRA PAPEL TESOURA*/
+.jogoPepaTe{
+    
+    width: 100%;
+    border: 2px solid;
+    background-color: white;
+    /*padding-top: 20px;*/
+    border-radius: 7px;
+    margin: 10px 0px;
+    padding: 4% 5%;
+    box-shadow: 5px 5px rgb(138, 145, 138);
+    
+}
+.jogoPepaTe h1{
+    color: #242eec;
+}
+.regasApoio{
+   text-align: center;
+}
+
+.PPTUtilizador{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+}
+.divImg{
+    width: 120%;
+    margin-right: 150px;
+    margin-left: 70px;
+    
+
+}
+.resultadosPPT{
+    display: block; 
+    text-align: center;
+}
+
+.resultadosPPT h1{
+   
+    color: red;
+}
+.PPTPc{
+     
+    display: flex;
+    justify-content: center;
+}
+
+.btnPPT{
+   border: 3px solid;
+    width: 400px;
+    margin-left: 32%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.tituloPPT h1{
+    text-align: center;
+    align-items: center;
+}
+@media only screen and (min-width:150px) and (max-width:780px){
+    .slogan{
+     display: none;
+    }
+ 
+    .logo{
+     width: 55%;
+     margin: 0px 0px;
+     
+    }
+ 
+     body{
+         width: 90%;
+         font-size: 12px;
+     }
+     section{
+         width: 100%;
+     }
+     aside{
+         width: 100%;
+         float: left;
+         margin: 0% 0% 3% 0%;
+         padding: 0px 5px;
+     }
+     
+ .grid{
+    
+     width: 303px;
+     height: 303px;
+ }
+ .grid div{
+     width: 20px;
+     height: 20px;
+    
+ }
+ .invader{
+    
+     background-image: url(imagens/alien2.png);
+     border-radius:10px;
+ }
+ 
+ .shooter{
+    
+     background-image: url(imagens/nave.png);
+     
+ }
+ 
+ .laser{
+    
+     background-image: url(imagens/laser.png);
+ }
+ .boom{
+     
+     background-image: url(imagens/boom.png);
+ }
+
+ .divImg{
+    width: 25%;
+    margin-right: 25px;
+    margin-left: 0px;
+   
+    
+
+}
+.btnPPT{
+    width: 50%;
+    margin-left: 22%;
+}
+ }
+
+
+
+ 

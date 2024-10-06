@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="discription" content="Site Cet 87">
+    <meta name="keyword" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Ana">
+    <meta name="generator" content="Visual Studio Code">
+    <meta name="robots" content="noidex">
+    <title>CET 87</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo:ital,wght@0,100..900;1,100..900&family=Play:wght@400;700&display=swap" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <link rel="stylesheet" type= "text/css" href="fontawesome/fontawesome-free-6.5.2-web/css/all.min.css" />
+
+    <link rel="stylesheet" href="estilos.css">
+    <script src="javascript.js"></script>
+</head>
+<body>
+    <header class="barranevegacao">
+        
+             <div class="cabecalhoSite">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="imagens/2325.png" alt="Logo CET 87" ></a>
+                </div>
+                <div class="slogan">
+                    <p > JAVASCRIPT</p>
+                
+                 </div>
+             </div>
+        
+    <nav>
+        <ul>
+            <li class="linkativo "> <a href="index.html" >Home</a></li>
+            <li class="dropdown"><a class="dropbtn">Exercícios</a>
+                <div class="dropdown-content">
+                  <a href="exer1a10.html">1..10</a>
+                  <a href="exer11a20.html">11..20</a>
+                  <a href="exer21a30.html">21..30</a>
+                  <a href="exer31a40.html">31..40</a>
+                  <a href="exer41a50.html">41..50</a>
+                  <a href="exer51a60.html">51..60</a>
+                </div></li>
+            <li class="dropdown"><a class="dropbtn">Jogos</a>
+                    <div class="dropdown-content">
+                      <a href="aposta.html">Corrida</a>
+                      <a href="spaceInvaders.html">Space Invaders</a>
+                      <a href="PPT.html">Pedra, Papel, Tesoura</a>
+                    </div>
+            </li>     
+        </ul>
+    </nav> 
+</header>
+
+<section class="paginaex11a20">
+    <article class="segundos10">
+        <header>
+            <h2 class="titulonoticia">Exercício 11</h2>
+        </header>
+        <p>     11.	Escreva um programa que leia um número inteiro do utilizador e mostre se é positivo ou negativo. 
+        </p>
+        <hr>        
+          <div class="row g-3 align-items-center">
+              <div class="mb-3">
+                <label for="num11" class="col-form-label">Número</label>         
+                <input type="text" id="num11" class="form-control exrcicio14style" aria-describedby="idade">
+                <span id="resultadonum11" class="form-text"></span>
+              </div>
+              <div class=" btn11a20">
+                 <button type="button" class="btn btn-primary" onclick="exercicio11()">Exercicio 11</button>
+              </div>
+             <div id="resultadoexer11"></div>
+          </div>
+    </article>
+
+    <article class="segundos10">
+        <header>
+            <h2 class="titulonoticia">Exercício 12</h2>
+        </header>
+        <p>12.	Escreva um programa que leia dois números ao utilizador e mostre qual deles é o maior. </p>
+        <hr>        
+          <div class="row g-3 align-items-center">
+                <div class="mb-3">
+                  <label for="num12a" class="col-form-label">1º Número</label>
+                  <input type="text" id="num12a" class="form-control exrcicio14style" aria-describedby="numero1">
+                    <span id="resultadonum12a" class="form-text"></span>
+                </div>
+              <div class= "mb-3">
+                <label for="num12b" class="col-form-label">2º Número</label>
+                <input type="text" id="num12b" class="form-control exrcicio14style" aria-describedby="numero2">
+                 <span id="resultadonum12b" class="form-text"></span>
+              </div>
+                <div class=" btn11a20">
+                    <button type="button" class="btn btn-primary" onclick="exercicio12()">Exercicio 12</button>
+                </div>
+              <div id="resultadoexer12"></div>
+           </div>  
+     </article>
+
+    <article class="segundos10">
+          <header>
+              <h2 class="titulonoticia">Exercício 13</h2>
+          </header>
+            <p>13.	Crie um programa que gera um número aleatório entre 1 e 6 e pergunte ao utilizador qual é o seu palpite. Mostre a quantidade de palpites certos/errados 
+            (Dica: utilize a Class Math para gerar números aleatórios)</p>
+          <hr>   
+
+          <div class="row g-3 align-items-center" >
+              <div class="mb-3">
+                <label for="palpite13ordem" class="col-form-label">Palpite</label>
+                <input type="text" id="palpite13" class="form-control exrcicio14style" aria-describedby="idade">
+                <span id="resultadopalpite13" class="form-text"></span>
+              </div>
+           </div>
+            <div class=" btn11a20">
+                <button type="button" class="btn btn-primary" onclick="exercicio13()">Exercicio 13</button>
+            </div>
+            <div id="resultadoexer13"></div>
+            <div class="col-auto" >
+            Certos: <span id="numeroscertos13" class="form-text">0</span>
+            </div>
+            <div class="col-auto " >
+              Errados: <span id="numeroserrados13" class="form-text">0</span>
+            </div>       
+    </article>
+
+    <article class="segundos10">
+          <header>
+              <h2 class="titulonoticia">Exercício 14</h2>
+          </header>
+            <p>14.	Crie um programa que leia 3 números do utilizador e mostre-os por ordem crescente</p>
+          <hr>
+          <div class="row g-3 align-items-center">  
+            <div class="mb-3">
+                <label for="num14" class="col-form-label">Números</label>
+                <input type="text" id="num14a" class="form-control exrcicio14style" placeholder="1º número"aria-describedby="idade"><span id="resultadonum14a" class="form-text"></span>
+                <input type="text" id="num14b" class="form-control exrcicio14style" placeholder="2º número"aria-describedby="idade"><span id="resultadonum14b" class="form-text"></span>
+                <input type="text" id="num14c" class="form-control exrcicio14style" placeholder="3º número"aria-describedby="idade"><span id="resultadonum14c" class="form-text"></span>
+             </div>
+            <div class=" btn11a20">
+               <button type="button" class="btn btn-primary" onclick="exercicio14()">Exercicio 14</button>
+            </div>
+            <div id="resultadoexer14"></div>
+     </article>
+
+    <article class="segundos10">
+          <header>
+              <h2 class="titulonoticia">Exercício 15</h2>
+          </header>
+          <p>15.	Crie um programa que leia 3 números do utilizador e mostre o que está mais perto de 100. </p>
+          <hr>
+          <div class="row g-3 align-items-center">  
+             <div class="mb-3 exer14">
+                <label for="num15" class="col-form-label">Número</label>
+                <input type="text" id="num15a" class="form-control exrcicio14style" placeholder="1º número" aria-describedby="idade"> <span id="resultadonum15a" class="form-text">
+                </span>
+                <input type="text" id="num15b" class="form-control exrcicio14style" placeholder="2º número" aria-describedby="idade"> <span id="resultadonum15b" class="form-text">
+                </span>
+                <input type="text" id="num15c" class="form-control exrcicio14style" placeholder="3º número" aria-describedby="idade"> <span id="resultadonum15c" class="form-text">
+                </span>
+             </div>
+            
+              <div class=" btn11a20">
+                  <button type="button" class="btn btn-primary" onclick="exercicio15()">Exercicio 15</button>
+              </div>
+              <div id="resultadoexer15"></div>
+    </article>
+
+    <article class="segundos10">
+          <header>
+              <h2 class="titulonoticia">Exercício 16</h2>
+          </header>
+         <p>      16.	Crie um programa que leia a nota quantitativa de um teste e mostre a nota qualitativa 
+                <br>>0..5 - Muito insuficiente 
+                <br>>5..9,5 – Insuficiente
+                <br>>9,5..14 - Suficiente 
+                <br>>14..16 – Bom
+                <br>>16..20 – Muito bom  
+          </p>
+          <hr>
+          <div class="row g-3 align-items-center">  
+              <div class="mb-3">
+                  <label for="nota16" class="col-form-label">Insira a nota:</label>
+                  <input type="text" id="nota16" class="form-control exrcicio14style" aria-describedby="nota">
+                  <span id="resultadonota16" class="form-text"></span>
+              </div>
+              <div class=" btn11a20">
+                <button type="button" class="btn btn-primary" onclick="exercicio16()">Exercicio 16</button>
+              </div>
+              <div id="resultadoexer16"></div>
+            </div>
+    </article>
+
+    
+    <article class="segundos10">
+          <header>
+              <h2 class="titulonoticia">Exercício 17</h2>
+          </header>
+            <p> 17.	Crie um programa que leia uma frase do utilizador e mostre a mensagem sem a palavra “não” caso esta exista.(Dica: Utilize o método split)</p>
+            <hr>  
+            <div class="row g-3 align-items-center">       
+               <div class="mb-3">
+                  <label for="texto17" class="col-form-label">Escreva uma frase: </label>
+                  <input type="text" id="texto17" class="form-control exrcicio14style" aria-describedby="nota">
+                  <span id="resultadotexto17" class="form-text"></span>
+                </div>
+                <div class=" btn11a20">
+                  <button type="button" class="btn btn-primary"  onclick="exercicio17()">Exercicio 17</button>
+                </div>
+                <div id="resultadoexer17"></div>
+            </div> 
+    </article>
+
+    <article class="segundos10">
+            <header>
+                <h2 class="titulonoticia">Exercício 18</h2>
+            </header>
+            <p>18.	Crie um programa que leia uma frase do utilizador e mostre a quantos caracteres numéricos existem na frase.</p>
+            <hr>
+
+          <div class="row g-3 align-items-center"> 
+                  <div class="mb-3">
+                      <label for="texto18" class="col-form-label">Escreva uma frase: </label>
+                      <input type="text" id="texto18" class="form-control exrcicio14style" aria-describedby="nota">
+                    <span id="resultadotexto18" class="form-text"></span>
+                  </div>
+              <div class=" btn11a20">
+                  <button type="button" class="btn btn-primary" onclick="exercicio18()">Exercicio 18</button></div>
+              <div id="resultadoexer18"></div>
+            </div>
+    </article>
+
+    <article class="segundos10">
+          <header>
+              <h2 class="titulonoticia">Exercício 19</h2>
+          </header>
+           <p>19.	Crie um programa que leia uma frase do utilizador e mostre a frase com os caracteres invertidos.</p>
+          <hr> 
+        <div class="row g-3 align-items-center"> 
+          <div class="mb-3">
+            <label for="texto19" class="col-form-label">Escreva uma frase: </label>
+            <input type="text" id="texto19" class="form-control exrcicio14style" aria-describedby="nota">
+            <span id="resultadotexto19" class="form-text"></span>
+          </div>
+          <div class=" btn11a20">
+              <button type="button" class="btn btn-primary" onclick="exercicio19()">Exercicio 19</button>
+          </div>
+          <div id="resultadoexer19"></div>
+      </div> 
+    </article>
+
+    <article class="segundos10">
+          <header>
+              <h2 class="titulonoticia">Exercício 20</h2>
+          </header>
+          <p>20.	Crie uma função receba um valor em euros e mostre o valor convertido em dólares. O valor do câmbio deverá ser dado pelo utilizador. </p>
+          <hr>
+          <div class="row g-3 align-items-center">
+          <div class="mb-3">
+            <label for="num20" class="col-form-label">Insira o valor em Euros: </label>
+            <input type="text" id="num20" class="form-control exrcicio14style" aria-describedby="nota">
+              <span id="resultadonum20" class="form-text"></span>
+          </div>
+          <div class="mb-3">
+              <label for="cambio20" class="col-form-label">Insira o câmbio actual: </label>
+              <input type="text" id="cambio20" class="form-control exrcicio14style" aria-describedby="nota">
+              <span id="resultadocambio20" class="form-text"></span>
+          </div>
+          <div class=" btn11a20">
+              <button type="button" class="btn btn-primary" onclick="exercicio20()">Exercicio 20</button>
+            </div>
+          <div id="resultadoexer20"></div>
+        </div>
+      </article>
+
+</section>
+
+<footer>
+  <p>&copy; Ana Duarte 
+      <a href="https://www.linkedin.com" target="_blank"><i class="fa-brands fa-linkedin fa-2xl"></i></a>
+      <a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-square-facebook fa-2xl"></i></a>
+      <a href="https://www.pinterest.pt/" target="_blank"><i class="fa-brands fa-square-pinterest fa-2xl"></i></a>
+      <a href="https://www.youtube.com" target="_blank"><i class="fa-brands fa-youtube fa-2xl"></i></a> 
+  
+  
+  </p>
+</footer>
+</body>
+</html>

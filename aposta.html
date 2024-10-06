@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="discription" content="Site Cet 87">
+    <meta name="keyword" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Ana">
+    <meta name="generator" content="Visual Studio Code">
+    <meta name="robots" content="noidex">
+    <title>CET 87</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo:ital,wght@0,100..900;1,100..900&family=Play:wght@400;700&display=swap" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <link rel="stylesheet" type= "text/css" href="fontawesome/fontawesome-free-6.5.2-web/css/all.min.css" />
+
+    <link rel="stylesheet" href="estilos.css">
+    <script src="javascript.js"></script>
+  
+</head>
+<body>
+    <header class="barranevegacao">
+        
+             <div class="cabecalhoSite">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="imagens/2325.png" alt="Logo CET 87" ></a>
+                </div>
+                <div class="slogan">
+                    <p > JAVASCRIPT</p>
+                
+                 </div>
+             </div>
+        
+    <nav>
+        <ul>
+            <li class="linkativo "> <a href="index.html" >Home</a></li>
+            <li class="dropdown"><a class="dropbtn">Exercícios</a>
+                <div class="dropdown-content">
+                  <a href="exer1a10.html">1..10</a>
+                  <a href="exer11a20.html">11..20</a>
+                  <a href="exer21a30.html">21..30</a>
+                  <a href="exer31a40.html">31..40</a>
+                  <a href="exer41a50.html">41..50</a>
+                  <a href="exer51a60.html">51..60</a>
+                </div></li>
+            <li class="dropdown"><a class="dropbtn">Jogos</a>
+                    <div class="dropdown-content">
+                      <a href="aposta.html">Corrida</a>
+                      <a href="spaceInvaders.html">Space Invaders</a>
+                      <a href="PPT.html">Pedra, Papel, Tesoura</a>
+                    </div>
+            </li>     
+        </ul>
+    </nav> 
+</header>
+
+    <section class="aposta-tabuleiro">
+        <!--Cabeçalho-->
+            <div class="tituloap1"><span>Faz a tua aposta</span></div>
+            <div class="tituloap2"><span>Aposta</span></div>
+            <div class="tituloap3"><span>Metros</span></div>
+            <div class="tituloap4"><span>Vitórias</span></div>
+      <!--Pista 1-->
+            <div class="pista" ><img src="imagens/1.gif" alt="Bola de tenis" class="imgjogador1" id="jogador1"><img src="imagens/meta.jpg" alt="" class="dinheiro"></div>
+            <div class="box"><input type="text" id="txtaposta1" size="3" value="0" class="apostacx"> </div>
+            <div class="box"><span id="metros1">0/100</span></div>
+            <div class="box"><span id="vitorias1">0</span></div>
+        <!--Pista 2-->
+            <div class="pista"><img src="imagens/2.gif" alt="Bola de tenis" class="imgjogador2" id="jogador2"><img src="imagens/meta.jpg" alt="" class="dinheiro"></div>
+            <div class="box"><input type="text" id="txtaposta2" size="3" value="0" class="apostacx"> </div>
+            <div class="box"><span id="metros2">0/100</span></div>
+            <div class="box"><span id="vitorias2">0</span></div>
+         <!--Pista 3-->
+            <div class="pista"><img src="imagens/3.gif" alt="Bola de tenis" class="imgjogador3" id="jogador3"><img src="imagens/meta.jpg" alt="" class="dinheiro"></div>
+            <div class="box"><input type="text" id="txtaposta3" size="3" value="0" class="apostacx"> </div>
+            <div class="box"><span id="metros3">0/100</span></div>
+            <div class="box"><span id="vitorias3">0</span></div>
+          <!--Pista 4-->
+            <div class="pista"><img src="imagens/4.gif" alt="Bola de tenis" class="imgjogador4" id="jogador4"><img src="imagens/meta.jpg" alt="" class="dinheiro"></div>
+            <div class="box"><input type="text" id="txtaposta4" size="3" value="0" class="apostacx"> </div>
+            <div class="box"><span id="metros4">0/100</span></div>
+            <div class="box"><span id="vitorias4">0</span></div>
+           <!--Pista 5-->
+            <div class="pista"><img src="imagens/5.gif" alt="Bola de tenis" class="imgjogador5" id="jogador5"><img src="imagens/meta.jpg" alt="" class="dinheiro"></div>
+            <div class="box"><input type="text" id="txtaposta5" size="3" value="0" class="apostacx"> </div>
+            <div class="box"><span id="metros5">0/100</span></div>
+            <div class="box"><span id="vitorias5">0</span></div>
+     </section>
+
+    <section class="resultadoapostas">
+            <div class="startbtn" ><input type="button" name="" id="button1" value="Começar Corrida" onclick="StartRece()"></div>
+            <div class="box"><span>Créditos:</span></div>
+            <div class="box"><span id="creditos">100</span></div>
+
+     </section>
+
+
+
+     
+    
+</body>
+<footer>
+    <p>&copy; Ana Duarte 
+        <a href="https://www.linkedin.com" target="_blank"><i class="fa-brands fa-linkedin fa-2xl"></i></a>
+        <a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-square-facebook fa-2xl"></i></a>
+        <a href="https://www.pinterest.pt/" target="_blank"><i class="fa-brands fa-square-pinterest fa-2xl"></i></a>
+        <a href="https://www.youtube.com" target="_blank"><i class="fa-brands fa-youtube fa-2xl"></i></a> 
+    
+    
+    </p>
+</footer>
+</html>

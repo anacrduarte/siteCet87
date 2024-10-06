@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="discription" content="Site Cet 87">
+    <meta name="keyword" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Ana">
+    <meta name="generator" content="Visual Studio Code">
+    <meta name="robots" content="noidex">
+    <title>CET 87</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo:ital,wght@0,100..900;1,100..900&family=Play:wght@400;700&display=swap" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <link rel="stylesheet" type= "text/css" href="fontawesome/fontawesome-free-6.5.2-web/css/all.min.css" />
+
+    <link rel="stylesheet" href="estilos.css">
+    
+</head>
+<body>
+    <header class="barranevegacao">
+        
+             <div class="cabecalhoSite">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="imagens/2325.png" alt="Logo CET 87" ></a>
+                </div>
+                <div class="slogan">
+                    <p > JAVASCRIPT</p>
+                
+                 </div>
+             </div>
+        
+    <nav>
+        <ul>
+            <li class="linkativo "> <a href="index.html" >Home</a></li>
+            <li class="dropdown"><a class="dropbtn">Exercícios</a>
+                <div class="dropdown-content">
+                  <a href="exer1a10.html">1..10</a>
+                  <a href="exer11a20.html">11..20</a>
+                  <a href="exer21a30.html">21..30</a>
+                  <a href="exer31a40.html">31..40</a>
+                  <a href="exer41a50.html">41..50</a>
+                  <a href="exer51a60.html">51..60</a>
+                </div></li>
+            <li class="dropdown"><a class="dropbtn">Jogos</a>
+                    <div class="dropdown-content">
+                      <a href="aposta.html">Corrida</a>
+                      <a href="spaceInvaders.html">Space Invaders</a>
+                      <a href="PPT.html">Pedra, Papel, Tesoura</a>
+                    </div>
+            </li>     
+        </ul>
+    </nav> 
+</header>
+<section class="exercicio31a40">
+    <article class="exer31a40a">
+            <header>
+                <h2 class="titulonoticia">Exercício 31</h2>
+            </header>
+            <p>31.	Crie um programa que leia do utilizador duas strings (password, confirmação da password) e verifique se são iguais. Se não for mostre uma mensagem de erro.</p>
+            <hr>
+            <br>
+            <div class="row g-3 align-items-center">  
+              <div class="mb-3 row">
+                  <label for="inputPassword31a" class="col-sm-2 col-form-label">Password</label>
+                <div class="col-sm-10">
+                    <input type="password" class="form-control" id="inputPassword31a">
+                    <span id="resultadopass1" class="form-text"></span>
+                </div>
+              </div>
+                <div class="mb-3 row">
+                    <label for="inputPassword31b" class="col-sm-2 col-form-label">Confirmar Password</label>
+                    <div class="col-sm-10">
+                      <input type="password" class="form-control" id="inputPassword31b">
+                      <span id="resultadopass2" class="form-text"></span>
+                    </div>
+                  </div>
+                  <div>
+                    <button type="button" class="btn btn-outline-dark" onclick="exercicio31()">Exercicio 31</button>
+                  </div>
+                  <div id="resultadoexer31"></div>
+              </div>
+      </article>
+
+      <article class="exer31a40b">
+            <header>
+                <h2 class="titulonoticia">Exercício 32</h2>
+            </header>
+            <p>32.	Crie um programa que desenhe um retângulo azul</p>
+            <hr>
+            <div class ="exer32" >
+            <canvas id = "ex32"></canvas></div>
+            <div>
+              <button type="button" class="btn btn-outline-dark" onclick="exercicio32()">Exercicio 32</button>
+            </div>
+      </article>
+
+      <article class="exer31a40a">
+            <header>
+                <h2 class="titulonoticia">Exercício 33</h2>
+            </header>
+             <p>33.	Crie um programa que desenhe um círculo vermelho</p>
+              <hr>
+        <div class ="exer32" >
+            <canvas id = "ex33"></canvas></div>
+            <div>
+              <button type="button" class="btn btn-outline-dark" onclick="exercicio33()">Exercicio 33</button>
+            </div>
+      </article>
+
+    <article class="exer31a40b">
+            <header>
+                <h2 class="titulonoticia">Exercício 34</h2>
+            </header>
+            <p>34.	Crie um programa que leia um endereço de email e mostre metade escondido
+              Exemplo: mailncarvalho@gmail.com resultado mailnc…….@gmail.com</p>
+            <hr>
+            <div class="row g-3 align-items-center">       
+                <div class="mb-3">
+                  <label for="email34" class="form-label">Email: </label>
+                  <input type="email" class="form-control" id="email34" aria-describedby="email">
+                   <div class="col-auto">
+                      <span id="resultadoemail34" class="form-text"></span>
+                    </div>
+                </div>
+                <div>
+                <button type="button" class="btn btn-outline-dark" onclick="exercicio34()">Exercicio 34</button></div>
+                <div id="resultadoexer34"></div>
+              </div>
+    </article>
+
+
+    <article class="exer31a40a">
+        <header>
+            <h2 class="titulonoticia">Exercício 35</h2>
+        </header>
+        <p>35.	Crie um programa que leia do utilizador o nome e imprimir:
+            <br> •	Todo o nome:
+            <br> •	Primeira Letra do Nome:
+            <br> •	Ultima letra do nome:
+            <br>•	Da primeira letra até à 3ª:
+            <br>•	Todas as letras menos a primeira:
+            <br> •	Duas ultimas letras:
+            <br> •	Todos os nomes separados por espaços (split): 
+            </p>
+        <hr>
+        
+          <div class="row g-3 align-items-center">
+          
+                <div class="col-auto">
+                  <label for="nomes35" class="col-form-label">Insira um nome </label>
+                </div>
+                <div class="col-auto">
+                  <input type="text" id="nomes35" class="form-control" aria-describedby="numero">
+                </div>
+                <div class="col-auto">
+                  <span id="resultadonome35" class="form-text"></span>
+                </div>
+                <div>
+                    <button type="button" class="btn btn-outline-dark" onclick="exercicio35()">Exercicio 35</button>
+                  </div>
+                  <div id="resultadoexer35"></div>
+            </div>
+      </article>
+
+      <article class="exer31a40b">
+            <header>
+                <h2 class="titulonoticia">Exercício 36</h2>
+            </header>
+            <p>36.	Crie um programa que mostre o seguinte padrão utilizando ciclos encadeados. O número de linhas deverá ser introduzido pelo utilizador (Exemplo para 5 linhas).
+            <br> *  
+            <br>* *  
+            <br> * * *  
+            <br>* * * *  
+            <br>* * * * * 
+              </p>
+            <hr>
+        
+          <div class="row g-3 align-items-center">
+              <div class="col-auto">
+                <label for="num36" class="col-form-label">Insira o nº de linhas </label>
+              </div>
+              <div class="col-auto">
+                <input type="text" id="num36" class="form-control" aria-describedby="numero">
+              </div>
+              <div class="col-auto">
+                <span id="resultadonum36" class="form-text"></span>
+              </div>
+              <div>
+               <button type="button" class="btn btn-outline-dark" onclick="exercicio36()">Exercicio 36</button>
+              </div>
+              <div id="resultadoexer36"></div>
+            </div>
+      </article>
+
+      <article class="exer31a40a">
+            <header>
+                <h2 class="titulonoticia">Exercício 37</h2>
+            </header>
+            <p>37.	Crie um programa que leia um número do utilizador e mostre a soma dos números de 1 até ao valor introduzido pelo utilizador.</p>
+            <hr>
+            
+          <div class="row g-3 align-items-center">
+              <div class="col-auto">
+                <label for="num37" class="col-form-label">Insira um número </label>
+              </div>
+              <div class="col-auto">
+                <input type="text" id="num37" class="form-control" aria-describedby="numero">
+              </div>
+              <div class="col-auto">
+                <span id="resultadonum37" class="form-text"></span>
+              </div>
+              <div>
+                  <button type="button" class="btn btn-outline-dark" onclick="exercicio37()">Exercicio 37</button>
+              </div>
+              <div id="resultadoexer37"></div>
+            </div>
+      </article>
+
+      <article class="exer31a40b">
+            <header>
+                <h2 class="titulonoticia">Exercício 38</h2>
+            </header>
+            <p>38.	Crie um programa que imprima todos os múltiplos de 3, entre 1 e 100</p>
+            <hr>
+        
+          <div class="row g-3 align-items-center">
+              <div class="col-auto">
+                <label for="num38" class="col-form-label">Para saber os valores clique no botão </label>
+              </div>
+           
+              <div>
+                <button type="button" class="btn btn-outline-dark" onclick="exercicio38()">Exercicio 38</button>
+              </div>
+              <div id="resultadoexer38"></div>
+            </div>
+      </article>
+
+      <article class="exer31a40a">
+            <header>
+                <h2 class="titulonoticia">Exercício 39</h2>
+            </header>
+            <p>39.	Crie um programa que leia uma data e mostre o mês por extenso</p>
+            <hr>
+
+            <div class="row g-3 align-items-center">
+                <div class="col-auto">
+                  <label for="mes39" class="col-form-label">Insira a data (YYYY-MM-DD) </label>
+                </div>
+                <div class="col-auto">
+                  <input type="text" id="mes39" class="form-control" aria-describedby="numero">
+                </div>
+                <div class="col-auto">
+                  <span id="resultadomes39" class="form-text"></span>
+                </div>
+                <div>
+                  <button type="button" class="btn btn-outline-dark" onclick="exercicio39()">Exercicio 39</button>
+                </div>
+                <div id="resultadoexer39"></div>
+              </div>
+      </article>
+
+
+      <article class="exer31a40b">
+              <header>
+                  <h2 class="titulonoticia">Exercício 40</h2>
+              </header>
+              <p>40.	Crie um programa que leia a hora de entrada e saída de um funcionário sabendo que a hora de entrada será sempre inferior a data de saída caso contrário deverá ser exibido uma mensagem de erro. </p>
+              <hr>
+              
+            <div class="row g-3 align-items-center">
+                <div class="col-auto">
+                  <label for="horaEntrada40" class="col-form-label">Hora de entrada (HH:MM)</label>
+                </div>
+                <div class="col-auto">
+                  <input type="text" id="horaEntrada40" class="form-control" aria-describedby="numero">
+                </div>
+                <div class="col-auto">
+                  <span id="resultadohoraEntrada40" class="form-text"></span>
+                </div>
+              </div> 
+              <br>
+              <div class="row g-3 align-items-center">
+                <div class="col-auto">
+                  <label for="horaSaida40" class="col-form-label">Hora de saida (HH:MM)</label>
+                </div>
+                <div class="col-auto">
+                  <input type="text" id="horaSaida40" class="form-control" aria-describedby="numero">
+                </div>
+                <div class="col-auto">
+                  <span id="resultadohoraSaida40" class="form-text"></span>
+                </div>
+       
+                <div>
+                  <button type="button" class="btn btn-outline-dark" onclick="exercicio40()">Exercicio 40</button>
+                </div>
+                <div id="resultadoexer40"></div>
+              </div>
+      </article>
+</section>
+
+<footer>
+  <p>&copy; Ana Duarte 
+      <a href="https://www.linkedin.com" target="_blank"><i class="fa-brands fa-linkedin fa-2xl"></i></a>
+      <a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-square-facebook fa-2xl"></i></a>
+      <a href="https://www.pinterest.pt/" target="_blank"><i class="fa-brands fa-square-pinterest fa-2xl"></i></a>
+      <a href="https://www.youtube.com" target="_blank"><i class="fa-brands fa-youtube fa-2xl"></i></a> 
+  </p>
+</footer>
+
+</body>
+<script src="javascript.js"></script>
+</html>
